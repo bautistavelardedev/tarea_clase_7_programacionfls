@@ -12,7 +12,6 @@ section{
     align-items: center;
     justify-content: center;
     height: 100vh;
-    margin: 0 25%;
 }
 .title{
     font-weight: 400;
@@ -24,7 +23,7 @@ section{
     margin-bottom: 10px;
     font-size:16px
 }
-div {
+.lista {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -37,4 +36,9 @@ div {
 div h3{
     font-weight: 400;
     font-size:16px
+}
+.contenedor-lista{
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
 }
